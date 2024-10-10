@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* justify-content: center; */
+      align-items: center;
+}
+
+.navbar button{
+    padding: 15px 20px;
+    border-radius: 10px;
+   
+    /* align-items: center; */
+    /* border: none; */
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-bg {
+    background-image: url('../assets/Hero-bg.png');
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-container {
+    width: 1050px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* line-height: 50%; */
+    line-height: 40px;
+    /* display: flex; */
+}
+
+.header-btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.header-container button a {
+    text-decoration: none;
+}
+
+/* header style close */
+
+
+.dev-container {
+    margin: 50px 70px;
+}
+
+.dev-contain {
+    margin: 20px auto;
+    text-align: center;
+    width: 70%;
+}
+
+.dev-coding {
+    /* margin: 10px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dev-code-container {
+    width: 60%;
+    margin: 70px 50px;
+    line-height: 30px;
+}
+
+.dev-code-btn {
+    padding: 12px 15px;
+    margin-top: 10px;
+}
+
+/* close the Development section  */
+
+
+/* <!-- open the My Inspiration section style --> */
+
+.dev-contain .dev-title {
+    margin-bottom: 10px;
+}
+
+.inspiration {
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+}
+
+.inspiration video {
+    width: 700px;
+}
+
+.current-container {
+    display: flex;
+    margin: 10px 30px;
+}
+
+.current-html {
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(240, 205, 142);
+    border-radius: 10px;
+}
+
+.current-css {
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(142, 188, 240);
+    border-radius: 10px;
+}
+
+.current-js {
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(181, 240, 142);
+    border-radius: 10px;
+}
+.Current-target{
+    margin: 80px 0px;
+
+}
+
+.handshake {
+    margin: 50px 30px 50px 30px;
+
+}
+
+.support-container {
+    background-image: url('/assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    line-height: 50px;
+    
+
+}
+
+.support-contain {
+    padding-top: 100px;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.support-contain input{
+    margin-top: 10px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+}
+
+.support-contain button{
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
